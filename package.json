@@ -1,0 +1,25 @@
+{
+  "name": "alchemy-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A falling-sand cellular-automata physics playground — sand, water, lava, fire, acid and more, all reacting in the browser. Zero dependencies.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "falling-sand",
+    "cellular-automata",
+    "simulation",
+    "canvas",
+    "physics",
+    "game"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
