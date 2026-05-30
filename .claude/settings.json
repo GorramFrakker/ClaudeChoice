@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node --test >/dev/null 2>&1 && echo '[Alchemy Sandbox] engine tests pass ✓  — run \"npm run dev\" then open http://localhost:5173' || echo '[Alchemy Sandbox] WARNING: engine tests are failing — run \"npm test\" to see why'"
+          }
+        ]
+      }
+    ]
+  }
+}
